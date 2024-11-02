@@ -25,7 +25,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -51,10 +52,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>A90253CABEA4CC0A4F9D07735C531AFC32E119D1</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B01B86552B4D02A0FC47EC856B674E8C7F96987F</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>MusicPlayerProject_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>MusicPlayerProject_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -121,6 +122,7 @@
     <Resource Include="Assets\Fonts\Samim-Bold.ttf" />
     <Resource Include="Assets\Fonts\Samim-Medium.ttf" />
     <Resource Include="Assets\Fonts\Samim.ttf" />
+    <None Include="MusicPlayerProject_1_TemporaryKey.pfx" />
     <None Include="MusicPlayerProject_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <!--Start Solid Color Brushes-->
+    <!--  Start Solid Color Brushes  -->
     <SolidColorBrush x:Key="SCB_TransParent"
                      Color="#00000000" />
     <SolidColorBrush x:Key="SCB_FFFFFF"
@@ -13,25 +13,21 @@
                      Color="#11FFFFFF" />
     <SolidColorBrush x:Key="SCB_99FFFFFF"
                      Color="#99FFFFFF" />
-    <!--End Solid Color Brushes-->
+    <!--  End Solid Color Brushes  -->
 
-    <!--Start Colors-->
+    <!--  Start Colors  -->
     <Color x:Key="Color_TransParent">#00000000</Color>
     <Color x:Key="Color_FFFFFF">#FFFFFF</Color>
     <Color x:Key="Color_704040">#704040</Color>
     <Color x:Key="Color_B2B2B2">#B2B2B2</Color>
     <Color x:Key="Color_11FFFFFF">#11FFFFFF</Color>
     <Color x:Key="Color_99FFFFFF">#99FFFFFF</Color>
-    <!--End Colors-->
+    <!--  End Colors  -->
 
-    <!--Start Gradients-->
-    <LinearGradientBrush x:Key="WindowBackgroundGradient"
-                         StartPoint="0.5, 0"
-                         EndPoint="0.5, 1">
-        <GradientStop Color="#7A3F1C"
-                      Offset="0" />
-        <GradientStop Color="#1D0702"
-                      Offset="1" />
+    <!--  Start Gradients  -->
+    <LinearGradientBrush x:Key="WindowBackgroundGradient" StartPoint="0.5, 0" EndPoint="0.5, 1">
+        <GradientStop Offset="0" Color="#7A3F1C" />
+        <GradientStop Offset="1" Color="#1D0702" />
     </LinearGradientBrush>
-    <!--End Gradients-->
+    <!--  End Gradients  -->
 </ResourceDictionary>
